@@ -7,7 +7,7 @@ This project implements a machine learning model to predict wine quality using t
 ```
 wine-quality-prediction/
 │
-├── train.py            # Main training script
+├── app.py            # Main training script
 ├── requirements.txt    # Project dependencies
 └── README.md          # Project documentation
 ```
@@ -64,3 +64,23 @@ The model's performance is evaluated using:
 
 ## Model Registry
 The trained model is automatically registered in MLflow's Model Registry as "ElasticnetWineModel" when using a remote tracking server.
+
+## Proof of Deployment:
+
+## Output in CLI:
+![Output in CLI](https://github.com/user-attachments/assets/f323cc63-b52a-4dc5-9436-a30af1852c79)
+
+
+## MLFlow UI hosted on AWS EC2 instance:
+
+![MLflow UI hosted in EC2 instance](https://github.com/user-attachments/assets/d60264f7-13b1-4700-9a5f-83d3b4559dde)
+
+
+## ML Model stored in AWS S3 bucket:
+![ML model stored in S3 bucket](https://github.com/user-attachments/assets/9098f6dd-b13c-40d5-8974-15b91790a8f4)
+
+
+
+
+
+
